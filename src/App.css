@@ -20,3 +20,19 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .numBtn-container{
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .numberButton {
+        width:30%;  
+        color:white;
+        background-color:blue;
+        border: none;
+        text-decoration: none;
+        border-radius: 60px;
+        padding: 3%;
+  }
