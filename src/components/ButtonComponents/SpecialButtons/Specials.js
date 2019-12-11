@@ -10,12 +10,12 @@ const Specials = () => {
 
   return (
     <div>
-      {specialButton.map((special, index) => (
-        <SpecialButton key={index} special={special}/>
+      {specials.map((special) => (
+        <SpecialButton key={special} special={special}/>
       ))}
     </div>
   );
 };    
 
 export default Specials;
-   
+    

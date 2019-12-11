@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+
+//import my Button
 import OperatorButton from "./OperatorButton";
 
 
@@ -14,7 +16,7 @@ const Operators = () => {
   return (
     <div>
       {operatorsButton.map((operator, index) => (
-        <OperatorButton key={index} operator={operator.char} />
+        <OperatorButton key={index} operator={operator} />
       ))}
     </div>     
   );
