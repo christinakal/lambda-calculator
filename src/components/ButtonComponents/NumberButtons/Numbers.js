@@ -4,14 +4,14 @@ import NumberButton from "./NumberButton.js";
 
 import { numbers } from "../../../data";
 
-const Numbers = () => {
+const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [numberButton, setNumberButton] = useState(numbers);
   return (
     <div className="numBtn-container">
        {numberButton.map((number) => (
          <NumberButton  key={number} 
-                        number={number} 
+                        text={number} 
                         addNumber={props.addNumber}
           />
        ))}
